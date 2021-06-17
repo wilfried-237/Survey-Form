@@ -27,12 +27,9 @@ h1{
     margin-top: 20px;
     padding: 10px;
 }
-label{
-    display: block;
-    margin: 20px;
-}
+
 .shell{
-    width: 80%;
+    width: 90%;
     border: 1px solid grey;
     margin-bottom: 20px;
     background-color: white;
@@ -66,4 +63,7 @@ form{
     margin: auto;
     text-align: center;
     margin-top: 20px;
+}
+.header{
+    display: block;
 }
