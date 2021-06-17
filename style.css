@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Anaheim;
+}
+.back{
+    background-color: lightgoldenrodyellow;
+    width: 98%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+div{
+    margin: auto;
+}
