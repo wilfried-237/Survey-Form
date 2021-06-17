@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Anaheim;
+    font-family: Helvetica;
     background-color: lightgoldenrodyellow;
 }
 back{
@@ -33,7 +33,7 @@ h1{
     border: 1px solid grey;
     margin-bottom: 20px;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .back{
     margin: auto;
