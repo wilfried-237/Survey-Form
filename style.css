@@ -2,10 +2,11 @@ body{
     margin: 0;
     padding: 0;
     font-family: Anaheim;
-}
-.back{
     background-color: lightgoldenrodyellow;
-    width: 98%;
+}
+back{
+    background-color: lightgoldenrodyellow;
+    width: 90%;
     height: auto;
     margin: auto;
     margin-top: 20px;
@@ -14,4 +15,55 @@ body{
 }
 div{
     margin: auto;
+    width: 90%;
+}
+h1{
+    text-align: center;
+}
+.sec1, .sec2, .sec3, .sec4{
+    width: 70%;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+label{
+    display: block;
+    margin: 20px;
+}
+.shell{
+    width: 80%;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+.back{
+    margin: auto;
+    margin-top: 20px;
+}
+button{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    width: 200px;
+    font-size: 16px;
+    border: 2px solid black;
+}
+p{
+    margin: auto;
+    width: 80%;
+}
+form{
+    margin: auto;
+}
+.heading{
+    margin: auto;
+}
+.btn{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
 }

@@ -13,8 +13,10 @@
     <div class="back">
         <div class="shell">
             <form action="#" method="post">
-                <h1>Application For Permission To Date My Daughter</h1>
-                <b>Note:</b> Form is to be completed at least 21 days prior to date.
+                <div class="heading">
+                    <h1>Application For Permission To Date<br> My Daughter</h1>
+                    <p><b>Note:</b> Form is to be completed at least 21 days prior to date.</p>
+                </div>
                 <div class="sec1">
                     <b class="header">Personal Details</b>
                     <label for="Name">Name:</label>
@@ -39,8 +41,37 @@
                     <input type="checkbox" name="tattoo" value="tattoo" id="tattoo">I have tattoos and/piercings
                     <input type="checkbox" name="age" id="age" value="age">I am more 2 years older than your Daughter
                     <input type="checkbox" name="work" id="work" checked>I work full-time
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="rich" id="rich" checked>My parents are rich
+                    <input type="checkbox" name="location" id="location" checked>Is the date at a well lit public location
                 </div>
+                <div class="sec3">
+                    <label for="Political Persuation">Political Persuation:</label>Education
+                    <select name="Political Persuation" id="dropdown">
+                        <option value="Left Wing">Left Wing</option>
+                        <option value="Right Wing">Right Wing</option>
+                        <option value="Conservative">Conservative</option>
+                        <option value="Nazi">Nazi</option>
+                    </select>
+                    <label for="Level Completed">Level Completed:</label>
+                    <select name="Level Completed" id="dropdown">
+                        <option value="University">University</option>
+                        <option value="College">College</option>
+                        <option value="High School">High School</option>
+                        <option value="None">None</option>
+                    </select>
+                </div>
+                <div class="sec4">
+                    <b class="header">Essay Section</b>
+                    <label>In 50 words or more explain why you want to date my daughter</label>
+                    <input type="text-area" placeholder="Enter Text Here" maxlength="50">
+                    <label>Please upload contact details for 2 references</label>
+                    <input type="text-area" placeholder="Enter Text Here" maxlength="50">
+                    <label for="Medical Certificate">Upload Policy Clearance Certificate, Bank Statement and Medical Certifiates here:</label>
+                    <input type="file" name="" id="">
+                </div>
+                <div class="btn">
+                    <button type="submit">Send Your Application</button>
+                </div>    
             </form>
         </div>
     </div>
